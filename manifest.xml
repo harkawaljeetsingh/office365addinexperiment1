@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+    <Id>your-addin-id</Id>
+    <Version>1.0.0.0</Version>
+    <ProviderName>Your Company Name</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName DefaultValue="Simple Hello Add-in" />
+    <Description DefaultValue="Displays a Hello message in the task pane." />
+    <Hosts>
+        <Host Name="Document"/>
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://github.com/harkawaljeetsingh/office365addinexperiment1/blob/main/taskpane.html" />
+    </DefaultSettings>
+</OfficeApp>
